@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/genesis_x3.mk
+    $(LOCAL_DIR)/pixelage_x3.mk

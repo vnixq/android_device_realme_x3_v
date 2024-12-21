@@ -20,13 +20,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/realme/x3/device.mk)
-$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BUILD_GAPPS := true
 
 # Device identifier
-PRODUCT_NAME := pixelage_x3
+PRODUCT_NAME := yaap_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme X3 / SuperZoom

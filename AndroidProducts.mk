@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_x3.mk
+    $(LOCAL_DIR)/pixelage_x3.mk
+
+COMMON_LUNCH_CHOICES := \
+    pixelage_x3-ap4a-user \
+    pixelage_x3-ap4a-userdebug \
+    pixelage_x3-ap4a-eng

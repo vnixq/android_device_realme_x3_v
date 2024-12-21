@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_x3.mk
+    $(LOCAL_DIR)/lineage_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_x3-ap4a-user \
-    yaap_x3-ap4a-userdebug \
-    yaap_x3-ap4a-eng
+    lineage_x3-ap3a-user \
+    lineage_x3-ap3a-userdebug \
+    lineage_x3-ap3a-eng

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelage_x3.mk
+    $(LOCAL_DIR)/yaap_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelage_x3-ap4a-user \
-    pixelage_x3-ap4a-userdebug \
-    pixelage_x3-ap4a-eng
+    yaap_x3-ap4a-user \
+    yaap_x3-ap4a-userdebug \
+    yaap_x3-ap4a-eng

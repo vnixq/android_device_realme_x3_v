@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023 The pixelageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_x3.mk
+    $(LOCAL_DIR)/pixelage_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_x3-ap3a-user \
-    lineage_x3-ap3a-userdebug \
-    lineage_x3-ap3a-eng
+    pixelage_x3-ap4a-user \
+    pixelage_x3-ap4a-userdebug \
+    pixelage_x3-ap4a-eng

@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.msmnile \
     audio.bluetooth.default \
     audio.r_submix.default \
+    audio.primary.default \
     audio.usb.default \
     libvolumelistener \
     libaudioroute \
